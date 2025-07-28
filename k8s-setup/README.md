@@ -1,5 +1,4 @@
 
-=
 SETUP
 =
 
@@ -12,7 +11,6 @@ kind create cluster --config 1_kind-config.yaml
 k apply -f 2_resources.yaml
 
 
-=
 CLEANUP
 =
 
