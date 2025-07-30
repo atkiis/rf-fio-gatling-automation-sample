@@ -23,6 +23,10 @@ on:
 permissions:
   contents: read
 
+tools:
+  codacy-metrics-cloc:
+    enabled: false
+
 jobs:
   codacy-security-scan:
     permissions:
